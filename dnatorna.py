@@ -11,7 +11,7 @@ def rna(seq):
 
     if seq_upper:
         return seq.upper()
-
+# will return the sequence as upper case even if original is lower case
     else:
         return seq
 
@@ -29,6 +29,6 @@ def reverse_rna_complement(seq):
 
     if seq_upper:
         return seq.upper()
-
+# will return the sequence as upper case even if original is lower case
     else:
         return seq
